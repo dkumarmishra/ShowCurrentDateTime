@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gotechnofied.showcurrentdatetime.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:text="Show Current Date"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textViewDateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textColor="#e40a0a"
+        android:textSize="20sp"
+         />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDateValue"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:text="Show Current Date"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewTImeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewDateValue"
+        android:layout_alignStart="@+id/textViewDateValue"
+        android:layout_alignTop="@+id/textViewTime"
+        android:layout_marginTop="61dp"
+        android:text="TextView"
+        android:textColor="#e40a0a"
+        android:textSize="20sp" />
+
+ 
+</RelativeLayout>
